@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { Activity, ArrowRight, BadgeDollarSign, CheckCircle2, HeartPulse, LoaderCircle, RotateCcw, ShieldCheck } from 'lucide-react';
 
 
-
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000/api/predict";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "http://127.0.0.1:5000/api/predict";
 
 export default function App() {
   const [form, setForm] = useState({ age: '30', sex: 'female', children: '0', smoker: 'no' });
