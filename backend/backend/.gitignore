@@ -1,0 +1,19 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# React / Node
+node_modules/
+dist/
+
+# Local secrets
+.env.local
+.env.*.local
+
+# Editor and OS
+.vscode/
+.DS_Store
